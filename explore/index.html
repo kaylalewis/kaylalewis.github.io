@@ -1,0 +1,31 @@
+---
+layout: default
+title: Explore
+---
+ 
+
+<div class="row">
+	<div class="grid-full float-center">
+  <h2>explore</h2>
+ 
+  <p class="content">Below you will find in-depth explorations of words. Some explorations are physical and involve the creation of words in an actual environment. Others are concerned with molecular structure through written, drawn, and digital depiction. </p>
+
+  
+</div>
+</div>
+
+<ul class="entriespage">
+  
+  {% for post in site.tags.explore %}
+
+ <li>
+    <a href="{{ post.url }}">
+      <h3>{{ post.title }}</h3>
+    </a>
+  </li>
+
+
+  {% endfor %}
+
+</ul>
+
