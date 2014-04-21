@@ -27,7 +27,7 @@ header {
 
 list.list-unstyled, .content, ul.entries li , .pagecontent {
 
-	font-family: Book Antiqua;
+	font-family: "Book Antiqua", serif;
 	letter-spacing: .5pt;
 	font-size: 16px;
 	color: rgb(51, 51, 51);
@@ -134,7 +134,7 @@ ul.entries li {
 
 ul.entries li h3 {
 
-font-size: 24px;
+font-size: 26px;
 margin-top: -36px;
 margin-left: 40px;
 margin-right: 40px;
@@ -174,7 +174,7 @@ footer {
 
 .pageheader, ul.entriespage li h3 {
 	
-	font-family: Book Antiqua;
+	font-family: "Book Antiqua" , serif;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 36px;
@@ -213,17 +213,17 @@ footer {
 .list-unstyled {
 	
 	color: rgb(51, 51, 51);
-	font-family: Book Antiqua;
+	font-family: "Book Antiqua", serif;
 	letter-spacing: .5pt;
-	font-size: 14px;
+	font-size: 16px;
 
 
 }
 
 sub.list-unstyled
 {
-font-family: Book Antiqua;
-	font-size: 8px;
+font-family: "Book Antiqua", serif;
+	font-size: 9px;
 	font-style: normal;
 	font-weight: 300;
 	
@@ -238,7 +238,7 @@ iframe {
 
 h4 {
 
-	font-family: Book Antiqua;
+	font-family: "Book Antiqua", serif;
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 300;
@@ -246,8 +246,8 @@ h4 {
 
 sub {
 
-	font-family: Book Antiqua;
-	font-size: 8px;
+	font-family: "Book Antiqua" , serif;
+	font-size: 9px;
 	font-style: normal;
 	font-weight: 300;
 	
@@ -255,7 +255,7 @@ sub {
 
 h5 {
 
-	font-family: Book Antiqua;
+	font-family: "Book Antiqua", serif;
 	font-size: 24px;
 	font-style: normal;
 	font-weight: 300;
