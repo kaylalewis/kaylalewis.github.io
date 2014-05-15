@@ -1,28 +1,21 @@
-
-
 body {
 
-	background-color: rgb(230,230,230);
-	width: 100%;
+background-color: rgb(230,230,230);
 	margin-left: 5%;
-	
-}
-
-div.outside {
-
-	background-color: white;
-	padding: 10px;
-	height: 100%;
-	width: 1200px;
+	margin-right: 5%;
 
 }
 
 header {
 	
 	background-color: rgb(51,51,51);
-	padding-bottom: 1px;
-	margin-bottom: 5px;
 
+
+}
+
+div.outside {
+
+	background-color: white;
 }
 
 list.list-unstyled, .content, ul.entries li , .pagecontent {
@@ -75,6 +68,7 @@ h2 {
 	border-style:solid;
 	border-color: rgb(51, 51, 51);
 	padding: 20px;
+	margin-right: 100px; 
 	
 }
 
