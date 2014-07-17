@@ -1,0 +1,36 @@
+---
+layout: default
+title: Book
+---
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="/turn.js/turn.min.js"></script>
+ 
+ <p class = "content"> Excerpts from ongoing book </p>
+
+<div class="row">
+<div class="grid-full float-center">
+  </div>
+</div>
+
+<div id="magazine">
+	
+  {% for post in site.tags.writing %}
+ 
+  <li class="writing">
+
+      {{post.content}}
+      
+ </li>
+
+ {% endfor %}
+	
+
+</div>
+
+
+
+
+<script src = "/../myTurn.js"></script>
+
+
