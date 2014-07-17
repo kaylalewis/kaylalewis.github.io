@@ -34,6 +34,10 @@ h2, p {
 	margin-right: 40px;
 }
 
+p {
+
+	padding-bottom: 200px;
+}
 h2, nav ul {
 
 	font-family: "museo-sans",sans-serif;
@@ -166,7 +170,7 @@ footer {
 	color: white;
 	background-color: rgb(128,128,128);
 	text-align: center;
-	margin-top: 200px;	
+	margin-top: 400px;	
 
 }
 
