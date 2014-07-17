@@ -1,6 +1,6 @@
 body {
 
-background-color: rgb(230,230,230);
+background: rgb(230,230,230);
 	margin-left: 5%;
 	margin-right: 5%;
 
@@ -18,11 +18,11 @@ div.outside {
 	background-color: white;
 }
 
-list.list-unstyled, .content, ul.entries li , .pagecontent {
+list.list-unstyled, .content, ul.entries li , .pagecontent, .writing, .pageheader, ul.entriespage li h3, .list-unstyled, h4, h5 {
 
-	font-family: "Book Antiqua", serif;
-	letter-spacing: .5pt;
-	font-size: 16px;
+	font-family: "Palatino", serif;
+	letter-spacing: 0pt;
+	font-size: 14px;
 	color: rgb(51, 51, 51);
 	line-height: 1.2;
 
@@ -49,7 +49,6 @@ h2 {
 	text-align: left;
 	width: 250px;
 	padding: 5px;
-
 	padding-left: 10px;
 	margin-top: 30px;
 	margin-bottom: 0px;
@@ -63,7 +62,6 @@ h2 {
 	
 	background-color: white;
 	color: rgb(51,51,51);
-	
 	border-top: 1px;
 	border-style:solid;
 	border-color: rgb(51, 51, 51);
@@ -118,6 +116,12 @@ margin: 0px;
 
 }
 
+li.writing {
+
+list-style-type: none;
+
+}
+
 ul.entries li {
 
  position: relative;
@@ -128,7 +132,7 @@ ul.entries li {
 
 ul.entries li h3 {
 
-font-size: 16px;
+font-size: 14px;
 margin-top: -36px;
 margin-left: 40px;
 margin-right: 40px;
@@ -168,7 +172,7 @@ footer {
 
 .pageheader, ul.entriespage li h3 {
 	
-	font-family: "Book Antiqua" , serif;
+	
 	font-style: normal;
 	font-weight: 500;
 	font-size: 36px;
@@ -199,30 +203,15 @@ footer {
 
 }
 
-.pageimage {
-
-
-}
-
 .list-unstyled {
 	
 	color: rgb(51, 51, 51);
-	font-family: "Book Antiqua", serif;
 	letter-spacing: .5pt;
-	font-size: 16px;
+	font-size: 14px;
 
 
 }
 
-sub.list-unstyled
-{
-font-family: "Book Antiqua", serif;
-	font-size: 9px;
-	font-style: normal;
-	font-weight: 300;
-	
-
-}
 
 iframe {
 
@@ -232,47 +221,49 @@ iframe {
 
 h4 {
 
-	font-family: "Book Antiqua", serif;
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 300;
 }
 
-sub {
-
-	font-family: "Book Antiqua" , serif;
-	font-size: 9px;
-	font-style: normal;
-	font-weight: 300;
-	
-}
 
 h5 {
 
-	font-family: "Book Antiqua", serif;
 	font-size: 24px;
 	font-style: normal;
 	font-weight: 300;
 	text-align: center;
 }
 
-.bigSub {
-
-font-size: 12px; 
-
-
-}
 
 .italics {
 
 	font-style: italic;
 }
 
+#magazine{
+	
+	width:1125px;
+	height:750px;
+	
 
+	
+}
+#magazine .turn-page{
+	background-color:white;
+	background-size:100% 100%;
+	border:1px;
+	border-color:rgb(230,230,230);
+	border-style:solid;
+}
 
+sub {
+    vertical-align: baseline;
+    line-height: inherit;
+    font-variant-position: sub;
+    font-size: 60%;
+    font-weight:normal;
+    letter-spacing:0px
 
-
-
-
-
+  }
 
