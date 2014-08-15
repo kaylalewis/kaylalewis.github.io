@@ -3,34 +3,23 @@ layout: default
 title: Book
 ---
 
-<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
-<script type="text/javascript" src="/js/hey.js/turn.min.js"></script>
- 
- <p class = "content"> Excerpts from ongoing book </p>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js">
+	</script>
+<script type="text/javascript" src="/js/hey.js/turn.min.js">
+	</script>
 
-<div class="row">
-<div class="grid-full float-center">
-  </div>
+<div class="grid-full float-center"> 
+	<p class = "bookcontent"> Excerpts from ongoing book. Hover over corners or use arrow keys to turn pages.</p>
+		<div id="magazine">
+			{% for post in site.tags.writing %}
+ 				<li class="writing">
+					{{post.content}}
+      			</li>
+			{% endfor %}
+		</div>
 </div>
 
-<div id="magazine">
-	
-  {% for post in site.tags.writing %}
- 
-  <li class="writing">
-
-      {{post.content}}
-      
- </li>
-
- {% endfor %}
-	
-
-</div>
-
-
-
-
-<script src = "/../myTurn.js"></script>
+<script src = "/../myTurn.js">
+</script>
 
 
