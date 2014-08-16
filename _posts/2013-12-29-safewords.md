@@ -4,4 +4,4 @@ title:
 tags: writing
 ---
 
-<img src= "/img/safewords.png">
+<img src= "/img/safe.png">
