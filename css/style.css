@@ -15,7 +15,7 @@ body {
 }
 
 
-div.outside {
+.outside {
 
 	background-color: white;
 }
@@ -89,7 +89,7 @@ a {
 
  
 a:hover {
-  color: #ececec;
+  color: rgb(128,128,128);
   text-decoration: underline;
 }
 
