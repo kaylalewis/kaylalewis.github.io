@@ -49,14 +49,21 @@ P<sub>2</sub>O<sub>3</sub>Te<sub>3</sub>N<sub>2</sub>Ti<sub>2</sub>Al<sub>2</sub
 Modeling P<sub>2</sub>O<sub>3</sub>Te<sub>3</sub>N<sub>2</sub>Ti<sub>2</sub>Al<sub>2</sub> allows users to view the molecule on a highly magnified scale. Modeling, in this context, is not just a prototype for something else, it exists as its own entity. P<sub>2</sub>O<sub>3</sub>Te<sub>3</sub>N<sub>2</sub>Ti<sub>2</sub>Al<sub>2</sub> as a model allows users to explore its components and bond structure at a larger scale, gaining an understanding of its elemental characteristics and makeup. 
 <br>
 <br>
-<br>
-<img src="/img/pot4.jpg">
-<br>
-<br>
-<img src="/img/pot1.jpg">
+The model has been scaled up approximately 100,000,000x.
 <br>
 <br>
-<img src="/img/potentialdirections.png">
+<br>
+<img src="/img/poten2.jpg">
+<br>
+<br>
+<br>
+<br>
+<img src="/img/potenlabel.jpg">
+<br>
+<br>
+<br>
+<br>
+<img src="/img/poten3.jpg">
 </div>
 </div>
 
