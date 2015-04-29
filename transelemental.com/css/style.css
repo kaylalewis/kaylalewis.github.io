@@ -10,8 +10,7 @@ header {
 .banner{
 
 	display: block;
-    margin-left: 5%;
-    margin-right: auto 
+    margin: 0 auto;
 }
 
 body {
@@ -149,8 +148,7 @@ font-size: 14px;
 ul.entriespage li h3 {
 
 text-align: center;
-margin-top: 0px;
-margin-bottom: 0px;
+margin: 0 auto;
 }
 
 ul.entries a {
@@ -166,7 +164,7 @@ ul.entries a:hover {
 	
 	
 	font-weight: 500;
-	font-size: 32px;
+	font-size: 28px;
 	color: rgb(51, 51, 51);
 
 } 
